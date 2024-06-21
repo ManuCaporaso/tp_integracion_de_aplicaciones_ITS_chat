@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>SISTEMA DE CHAT CON SOCKET.IO - MANUEL ALEJANDRO CAPORASO</h1>
+    </header>
+    <div id="chat">
+        <ul id="messages"></ul>
+        <form id="form" action="">
+            <input id="username" placeholder="Escribi tu nombre" autocomplete="off"/>
+            <input id="input" placeholder="Escribi tu mensaje" autocomplete="off"/>
+            <button>Enviar</button>
+        </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+<footer>
+    <div class="navbar">
+        <p>&copy; 2024 Integracion de Aplicaciones - Todos los derechos reservados</p>
+        <a href="./index.html"><img src="./img/itslogo.png" alt="logo"></a>
+    </div>
+</footer>
+</html>

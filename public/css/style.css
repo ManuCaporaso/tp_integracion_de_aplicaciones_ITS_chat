@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(../img/chat.png);
+    background-size: 60vh;
+}
+
+header {
+    background-color: #ed3434;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+#chat {
+    width: 800px;
+    margin: 250px auto;
+    padding: 30px;
+    border: 1px solid #ff9900;
+    border-radius: 5px;
+    background-color: #ed3434;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+    max-height: 500px;
+    font-size: 20px;
+    background-color: #ed3434;
+}
+
+#messages li {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#form {
+    display: flex;
+}
+
+#username {
+    padding: 20px;
+    font-size: 25px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#input {
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff200;
+}
+
+
+
+
+footer {
+    margin-top: 10%;
+    background-color: #ed3434; 
+    color: #FFFFFF; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar  nav ul {
+    margin: 0;
+}
+
+.navbar  nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar img {
+    margin-top: 20px;
+    width: 200px;
+}
